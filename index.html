@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Deepika Govindu | Materials Engineering Portfolio">
+    <title>Deepika Govindu | Materials Engineering</title>
+
+    <!-- Fonts: Manrope & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Manrope:wght@400;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Custom Crystal Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- 3D Crystal Lattice Background -->
+    <canvas id="bg-canvas"></canvas>
+    <div class="vignette-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar glass-nav">
+        <div class="container nav-container">
+            <a href="#" class="logo-group">
+                <img src="assets/iisc_logo.png" alt="IISc Logo" class="iisc-logo-nav">
+                <span class="logo-text">DG.</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#education" class="nav-item">Education</a></li>
+                <li><a href="#projects" class="nav-item">Projects</a></li>
+                <li><a href="#skills" class="nav-item">Skills</a></li>
+                <li><a href="#achievements" class="nav-item">Achievements</a></li>
+                <li><a href="#responsibility" class="nav-item">Responsibility</a></li>
+                <li><a href="#creative" class="nav-item">Creative</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge-container content-reveal">
+                    <span class="hero-badge">M.Tech Materials Engineering</span>
+                    <span class="hero-badge-outline">IISc Bangalore</span>
+                </div>
+
+                <h1 class="hero-title content-reveal" data-text="Deepika Govindu">Deepika Govindu</h1>
+                <h2 class="hero-subtitle content-reveal">Semiconductor Process Integration <span
+                        class="highlight">&</span> Device Fabrication</h2>
+
+                <p class="hero-desc content-reveal">
+                    Developing yield-resilient <strong>Oxide Semiconductor Devices</strong> and advanced Printed
+                    Electronics. Focused on the intersection of atomic structure and macroscopic device performance.
+                </p>
+
+                <div class="hero-actions content-reveal">
+                    <a href="#projects" class="btn btn-glow">View Research</a>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <!-- Circular Vibrant 3D Profile -->
+                <div class="profile-card-circular">
+                    <div class="card-inner-circle">
+                        <img src="assets/profile_dark.jpg" alt="Deepika Govindu" class="profile-img">
+                        <div class="circle-glow-ring"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-wrapper">
+            <div class="scroll-mouse">
+                <div class="scroll-wheel"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-title">About Me</h3>
+                <div class="line-accent"></div>
+            </div>
+            <div class="glass-card about-card content-reveal">
+                <p>
+                    I am a graduate student at the <strong>Indian Institute of Science (IISc)</strong>, currently
+                    conducting research at the <strong>Printed Electronics and Nanoionics Lab</strong> under
+                    <strong>Prof. Subho Dasgupta</strong>.
+                </p>
+                <p>
+                    My ongoing work explores <strong>Multi-Valued Logic (MVL)</strong> via
+                    <strong>Heterojunctions</strong>, utilizing <strong>a-IGO</strong> and <strong>p-type Cu₂O</strong>
+                    for next-generation printed electronics. I combine cleanroom fabrication with rigorous materials
+                    analysis to bridge the gap between fundamental science and scalable semiconductor manufacturing.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-title">Education</h3>
+                <div class="line-accent"></div>
+            </div>
+
+            <div class="education-timeline">
+                <div class="edu-card content-reveal">
+                    <div class="edu-header">
+                        <div class="edu-year">2024 – Present</div>
+                        <h4 class="edu-degree">Master of Technology – Materials Engineering</h4>
+                    </div>
+                    <div class="edu-school">Indian Institute of Science (IISc), Bangalore</div>
+                    <div class="edu-cgpa">CGPA: <strong>7.4</strong></div>
+                </div>
+
+                <div class="edu-card content-reveal">
+                    <div class="edu-header">
+                        <div class="edu-year">2019 – 2023</div>
+                        <h4 class="edu-degree">Bachelor of Technology – Metallurgical Engineering</h4>
+                    </div>
+                    <div class="edu-school">Jawaharlal Nehru Technological University Hyderabad (JNTUH UCEH)</div>
+                    <div class="edu-cgpa">CGPA: <strong>8.06</strong></div>
+                </div>
+
+                <div class="edu-card content-reveal">
+                    <div class="edu-header">
+                        <div class="edu-year">2017 – 2019</div>
+                        <h4 class="edu-degree">Intermediate (Class XII)</h4>
+                    </div>
+                    <div class="edu-school">Sri Chaitanya Junior Kalasala</div>
+                    <div class="edu-cgpa">GPA: <strong>9.47/10</strong></div>
+                </div>
+
+                <div class="edu-card content-reveal">
+                    <div class="edu-header">
+                        <div class="edu-year">2017</div>
+                        <h4 class="edu-degree">Secondary School Certificate (Class X)</h4>
+                    </div>
+                    <div class="edu-school">Siddartha High School</div>
+                    <div class="edu-cgpa">Score: <strong>90%</strong></div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-title">Selected Projects</h3>
+                <div class="line-accent"></div>
+            </div>
+
+            <div class="projects-grid">
+                <article class="project-card-3d content-reveal">
+                    <div class="card-content">
+                        <div class="card-chip">Process Integration</div>
+                        <h4 class="card-title">Inkjet-Printed Electrolyte-Gated CMOS & MVL</h4>
+                        <ul class="card-list">
+                            <li>Integrated n-type <strong>a-IGO</strong> and p-type Cu₂O TFTs on Si/SiO₂.</li>
+                            <li>Fabricated using optical lithography, PVD, and inkjet printing.</li>
+                            <li>Correlated FESEM, XRD, and I-V data to minimize process variability.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card-3d content-reveal">
+                    <div class="card-content">
+                        <div class="card-chip">Nanocomposites</div>
+                        <h4 class="card-title">Few-Layer Graphene–TiO₂ For DSSCs</h4>
+                        <ul class="card-list">
+                            <li>Fabricated Graphene–TiO₂ films via doctor-blade coating.</li>
+                            <li>Optimized interfaces to reduce recombination, achieving ~6.7% efficiency.</li>
+                            <li>Studied charge transport via morphological analysis.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card-3d content-reveal">
+                    <div class="card-content">
+                        <div class="card-chip">Materials Testing</div>
+                        <h4 class="card-title">Fatigue Testing of CFRP Laminates</h4>
+                        <ul class="card-list">
+                            <li>High-cycle fatigue testing on cross-ply laminates.</li>
+                            <li>Analyzed delamination and crack initiation mechanics.</li>
+                            <li>Correlated laminate architecture with fatigue life.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card-3d content-reveal">
+                    <div class="card-content">
+                        <div class="card-chip">NDT & Quality</div>
+                        <h4 class="card-title">Non-Destructive Testing of Forged Components</h4>
+                        <ul class="card-list">
+                            <li>Applied LPT, MPT, and UT for precision defect detection.</li>
+                            <li>Identified subsurface flaws critical to component failure.</li>
+                            <li>Established quality assurance correlations for manufacturing.</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card-3d content-reveal">
+                    <div class="card-content">
+                        <div class="card-chip">Metallurgy</div>
+                        <h4 class="card-title">Precipitation Hardening of Al-6061</h4>
+                        <ul class="card-list">
+                            <li>Studied solution treatment, quenching, and aging kinetics.</li>
+                            <li>Correlated microstructural precipitation with hardness evolution.</li>
+                            <li>Verified age-hardening mechanisms via optical microscopy.</li>
+                        </ul>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-title">Technical Expertise</h3>
+                <div class="line-accent"></div>
+            </div>
+
+            <div class="skills-wrapper">
+                <div class="skill-bar-group content-reveal">
+                    <h5>Core Competencies</h5>
+                    <div class="skill-tags">
+                        <span>Semiconductor Fabrication</span>
+                        <span>Process Integration</span>
+                        <span>Device Characterization</span>
+                        <span>Thermodynamics</span>
+                    </div>
+                </div>
+
+                <div class="skill-bar-group content-reveal">
+                    <h5>Fabrication Techniques</h5>
+                    <div class="skill-tags">
+                        <span>Optical Lithography</span>
+                        <span>PVD / PECVD</span>
+                        <span>Inkjet Printing</span>
+                        <span>Etching (Wet/Dry)</span>
+                        <span>Annealing</span>
+                    </div>
+                </div>
+
+                <div class="skill-bar-group content-reveal">
+                    <h5>Programming & ML</h5>
+                    <div class="skill-tags">
+                        <span>C</span>
+                        <span>Python</span>
+                        <span>MATLAB</span>
+                        <span>Machine Learning</span>
+                    </div>
+                </div>
+
+                <div class="skill-bar-group content-reveal">
+                    <h5>Characterization</h5>
+                    <div class="skill-tags">
+                        <span>FESEM (ZEISS)</span>
+                        <span>XRD</span>
+                        <span>XPS</span>
+                        <span>TEM</span>
+                        <span>Solar Simulator</span>
+                    </div>
+                </div>
+
+                <div class="skill-bar-group content-reveal">
+                    <h5>Software & Tools</h5>
+                    <div class="skill-tags">
+                        <span>Origin Pro</span>
+                        <span>Fusion 360</span>
+                        <span>ImageJ</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-title">Achievements</h3>
+                <div class="line-accent"></div>
+            </div>
+            <div class="grid-list">
+                <div class="grid-item content-reveal">
+                    <div class="item-icon">🏆</div>
+                    <div class="item-content">
+                        <h4>GATE 2024</h4>
+                        <p>Secured All India Rank <strong>368</strong> (Score: 432).</p>
+                    </div>
+                </div>
+                <div class="grid-item content-reveal">
+                    <div class="item-icon">🎓</div>
+                    <div class="item-content">
+                        <h4>Semiconductor Workshop</h4>
+                        <p>Specialized training in Semiconductor Manufacturing at IISc.</p>
+                    </div>
+                </div>
+                <div class="grid-item content-reveal">
+                    <div class="item-icon">🎨</div>
+                    <div class="item-content">
+                        <h4>IISc Arts Competition</h4>
+                        <p>1st Prize (Ambedkar Jayanti 2025) & Merit Award (Independence Day 2024).</p>
+                    </div>
+                </div>
+                <div class="grid-item content-reveal">
+                    <div class="item-icon">💻</div>
+                    <div class="item-content">
+                        <h4>Certifications</h4>
+                        <p>MATLAB Image Processing (MathWorks) & Python Programming (SkillUp).</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Positions of Responsibility -->
+    <section id="responsibility" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-title">Positions of Responsibility</h3>
+                <div class="line-accent"></div>
+            </div>
+            <div class="grid-list">
+                <div class="grid-item content-reveal">
+                    <div class="item-icon">🤝</div>
+                    <div class="item-content">
+                        <h4>Volunteer, SAFS, IISc (2025)</h4>
+                        <p>Coordinated student events and assisted in smooth execution and operations.</p>
+                    </div>
+                </div>
+                <div class="grid-item content-reveal">
+                    <div class="item-icon">📅</div>
+                    <div class="item-content">
+                        <h4>Volunteer, MTE 38th Annual Symposium (2025)</h4>
+                        <p>Supported event logistics, registrations, and speaker coordination for the Materials
+                            Engineering department.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creative Gallery Section -->
+    <section id="creative" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h3 class="section-title">Creative Pursuits</h3>
+                <div class="line-accent"></div>
+                <p class="section-desc-light">Exploring details through Fine Arts. <a
+                        href="https://www.instagram.com/deepikasartandserver/?hl=en" target="_blank"
+                        class="insta-link">@deepikasartandserver</a></p>
+            </div>
+
+            <div class="art-grid">
+                <div class="art-item content-reveal">
+                    <img src="assets/art_1.jpg" alt="Art Piece 1" loading="lazy">
+                    <div class="art-overlay">
+                        <span class="art-icon">🎨</span>
+                    </div>
+                </div>
+                <div class="art-item content-reveal">
+                    <img src="assets/art_2.jpg" alt="Art Piece 2" loading="lazy">
+                    <div class="art-overlay">
+                        <span class="art-icon">🎨</span>
+                    </div>
+                </div>
+                <div class="art-item content-reveal">
+                    <img src="assets/art_3.jpg" alt="Art Piece 3" loading="lazy">
+                    <div class="art-overlay">
+                        <span class="art-icon">🎨</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="art-cta content-reveal">
+                <a href="https://www.instagram.com/deepikasartandserver/?hl=en" target="_blank"
+                    class="btn btn-outline btn-insta">
+                    View More on Instagram ↗
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="footer">
+        <div class="footer-bg-crystal"></div>
+        <div class="container center-col">
+            <h2 class="contact-header">Connect</h2>
+            <div class="contact-actions">
+                <a href="mailto:deepikag@iisc.ac.in" class="btn btn-outline">deepikag@iisc.ac.in</a>
+                <a href="https://linkedin.com/in/deepika-govindu" target="_blank" class="btn btn-outline">LinkedIn</a>
+                <a href="https://www.instagram.com/deepikasartandserver/?hl=en" target="_blank"
+                    class="btn btn-outline">Instagram</a>
+            </div>
+            <p class="copyright">Department of Materials Engineering, IISc Bangalore</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
